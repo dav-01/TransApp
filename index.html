@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!--NavBar-->
+    <nav class="navbar">
+        <div class="navbar-logo">
+          <a href="#">TransApp</a>
+        </div>
+        <ul class="navbar-nav" id="navbar-nav">
+          <li class="nav-item"><a href="#">Inicio</a></li>
+          <li class="nav-item"><a href="#rutas">Rutas</a></li>
+          <li class="nav-item"><a href="#pqrs">PQRs</a></li>
+        </ul>
+        <div class="navbar-toggle" id="navbar-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+
+      <div>
+        <img class="img_trans" src="img/img_transmetro.jpg" alt="">
+      </div>
+
+
+    <center><h1 id="rutas">RUTAS</h1></center>
+    <div id="map">
+     </div>
+      
+
+    <center><h1 id="pqrs">PQRs</h1></center>
+  
+      <script async
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCReTBhVurI5Y6q_ETn2fQjw0DfJT2w_XM&callback=initMap">
+  </script>
+
+      <script src="main.js"></script>
+    <p>hs</p>
+    <a href="pages/rutas.html">Rutas</a>
+
+</body>
+</html>
